@@ -1,0 +1,57 @@
+/* For the whole body */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* the whole background */
+.hero{ 
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #1d0000, #20205b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* There is two Divs inside this div (left and right) */
+/* THE WHOLE CALENDAR */
+.calendar{
+  width: 300px;
+  height: 250px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* The two divs inside the calendar */
+.left, .right{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+/* The right side of the div */
+.right{
+  width: 42%;
+  background: #f4351e;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* The left size of the div */
+.left{
+  width: 58%;
+}
+
+#date{
+  font-size: 100px;
+  line-height: 90px;
+}
